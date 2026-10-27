@@ -1,0 +1,656 @@
+CustomerID,Gender,Age,Tenure,MonthlyCharges,TotalCharges,ContractType,InternetService,PaymentMethod,NumSupportTickets,Churned
+CID-0001,Male,79.0,48,61.42,2974.25,Two Year,Fiber Optic,Bank Transfer,3,0
+CID-0002,Male,29.0,25,22.23,488.74,One Year,No Internet,Credit Card,0,0
+CID-0003,Male,39.0,11,96.45,1055.55,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0004,Male,33.0,1,69.35,70.61,Month-to-Month,Fiber Optic,Mailed Check,3,1
+CID-0005,Female,,19,80.15,1527.2,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0006,Female,44.0,9,66.9,611.33,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0007,Female,46.0,26,67.98,1737.14,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0008,Female,49.0,8,94.03,709.82,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0009,Male,47.0,1,85.01,85.01,Month-to-Month,Fiber Optic,Bank Transfer,0,1
+CID-0010,Male,56.0,40,107.46,,Two Year,Fiber Optic,Bank Transfer,1,1
+CID-0011,Male,20.0,1,18.61,75.16,Month-to-Month,No Internet,Bank Transfer,2,0
+CID-0012,Female,48.0,12,20.51,265.42,Month-to-Month,No Internet,Bank Transfer,1,0
+CID-0013,Male,71.0,29,94.75,2799.51,One Year,Fiber Optic,Electronic Check,2,0
+CID-0014,Male,27.0,1,66.16,66.16,Month-to-Month,DSL,Credit Card,0,0
+CID-0015,Male,64.0,34,78.9,2730.67,One Year,Fiber Optic,Credit Card,3,0
+CID-0016,Male,18.0,12,29.63,330.86,One Year,No Internet,Mailed Check,1,0
+CID-0017,Female,60.0,33,28.97,913.25,Two Year,No Internet,Electronic Check,2,0
+CID-0018,Female,63.0,20,60.42,1144.88,Month-to-Month,DSL,Bank Transfer,2,0
+CID-0019,Male,35.0,6,22.28,169.72,Month-to-Month,No Internet,Electronic Check,2,1
+CID-0020,Male,24.0,5,37.81,296.19,Month-to-Month,DSL,Electronic Check,0,0
+CID-0021,Female,65.0,26,34.42,854.69,Month-to-Month,DSL,Mailed Check,3,1
+CID-0022,Female,45.0,43,77.98,3394.79,Two Year,Fiber Optic,Electronic Check,1,0
+CID-0023,Male,37.0,28,89.05,2527.28,One Year,Fiber Optic,Mailed Check,1,0
+CID-0024,Female,42.0,12,23.56,292.6,Month-to-Month,No Internet,Bank Transfer,0,1
+CID-0025,Female,74.0,50,103.83,5223.71,Two Year,Fiber Optic,Electronic Check,1,0
+CID-0026,Male,38.0,20,103.62,2043.49,Month-to-Month,Fiber Optic,Mailed Check,4,1
+CID-0027,Female,34.0,1,20.72,20.72,Month-to-Month,No Internet,Mailed Check,4,0
+CID-0028,Female,28.0,11,92.14,998.02,One Year,Fiber Optic,Mailed Check,1,1
+CID-0029,Female,45.0,12,48.12,603.6,Month-to-Month,DSL,Bank Transfer,0,1
+CID-0030,Female,25.0,21,24.31,455.63,Month-to-Month,No Internet,Electronic Check,1,1
+CID-0031,Female,18.0,6,63.37,456.35,One Year,Fiber Optic,Electronic Check,2,1
+CID-0032,Male,57.0,50,67.49,3424.99,Two Year,Fiber Optic,Credit Card,0,0
+CID-0033,Male,46.0,19,29.44,553.09,Month-to-Month,No Internet,Bank Transfer,2,0
+CID-0034,Male,28.0,6,21.7,67.96,Month-to-Month,No Internet,Electronic Check,2,1
+CID-0035,Female,47.0,28,54.17,1531.08,One Year,DSL,Electronic Check,2,0
+CID-0036,Female,,3,98.06,254.26,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0037,Female,18.0,8,30.95,296.29,Month-to-Month,DSL,Bank Transfer,2,1
+CID-0038,Male,66.0,48,103.19,4977.85,Two Year,Fiber Optic,Mailed Check,1,1
+CID-0039,Male,50.0,20,52.83,1004.73,Month-to-Month,DSL,Mailed Check,5,0
+CID-0040,Male,19.0,18,63.36,1160.53,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0041,Male,32.0,20,88.83,1732.3,One Year,Fiber Optic,Mailed Check,0,1
+CID-0042,Male,39.0,14,97.99,1385.45,Month-to-Month,Fiber Optic,Electronic Check,3,0
+CID-0043,Female,30.0,33,79.0,2564.26,One Year,Fiber Optic,Electronic Check,0,0
+CID-0044,Male,64.0,29,48.75,1428.08,Two Year,DSL,Mailed Check,3,1
+CID-0045,Female,64.0,31,101.02,3075.23,One Year,Fiber Optic,Bank Transfer,1,0
+CID-0046,Male,28.0,10,28.62,373.11,Month-to-Month,No Internet,Credit Card,3,1
+CID-0047,Female,44.0,2,34.92,104.19,Month-to-Month,DSL,Credit Card,3,1
+CID-0048,Male,25.0,38,105.61,3943.33,Two Year,Fiber Optic,Mailed Check,4,1
+CID-0049,Male,27.0,6,81.7,482.62,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0050,Female,45.0,6,102.27,580.38,Month-to-Month,Fiber Optic,Bank Transfer,2,0
+CID-0051,Female,45.0,28,23.83,697.3,One Year,No Internet,Electronic Check,0,0
+CID-0052,Female,38.0,23,73.47,1829.06,Month-to-Month,Fiber Optic,Bank Transfer,1,0
+CID-0053,Male,63.0,54,66.81,3533.82,Two Year,Fiber Optic,Bank Transfer,1,1
+CID-0054,Male,50.0,2,90.87,271.13,Month-to-Month,Fiber Optic,Credit Card,4,0
+CID-0055,Male,29.0,1,82.24,,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0056,Male,67.0,28,31.6,935.16,One Year,DSL,Credit Card,1,1
+CID-0057,Male,47.0,23,80.1,1726.48,One Year,Fiber Optic,Mailed Check,0,0
+CID-0058,Male,39.0,1,50.53,50.53,Month-to-Month,DSL,Electronic Check,2,0
+CID-0059,Female,19.0,36,60.81,2085.72,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0060,Female,63.0,21,,1407.75,Month-to-Month,DSL,Credit Card,1,0
+CID-0061,Female,49.0,4,94.84,414.27,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0062,Male,24.0,54,75.77,4077.29,Two Year,Fiber Optic,Bank Transfer,4,0
+CID-0063,Male,52.0,26,95.84,2518.34,One Year,Fiber Optic,Mailed Check,2,0
+CID-0064,Female,18.0,13,84.04,1065.62,One Year,Fiber Optic,Electronic Check,2,0
+CID-0065,Male,43.0,64,41.77,2763.23,Month-to-Month,DSL,Mailed Check,0,0
+CID-0066,Female,23.0,16,77.97,1256.95,One Year,Fiber Optic,Mailed Check,1,0
+CID-0067,Male,49.0,17,66.29,1117.4,Month-to-Month,DSL,Mailed Check,0,0
+CID-0068,Male,21.0,14,66.58,931.32,One Year,Fiber Optic,Bank Transfer,1,1
+CID-0069,Male,21.0,17,74.47,1225.14,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0070,Male,43.0,34,68.21,2332.0,One Year,DSL,Electronic Check,1,1
+CID-0071,Female,19.0,18,62.13,1090.57,Month-to-Month,DSL,Mailed Check,2,0
+CID-0072,Female,42.0,10,18.42,76.38,Month-to-Month,No Internet,Bank Transfer,1,1
+CID-0073,Female,65.0,7,25.96,255.73,Month-to-Month,No Internet,Credit Card,2,1
+CID-0074,Female,28.0,7,66.22,413.05,Month-to-Month,DSL,Credit Card,0,0
+CID-0075,Male,80.0,26,34.26,905.99,One Year,DSL,Electronic Check,1,0
+CID-0076,Female,27.0,31,65.67,1988.59,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0077,Female,58.0,3,64.97,,Month-to-Month,Fiber Optic,Mailed Check,1,1
+CID-0078,Female,45.0,36,28.33,1077.99,Two Year,No Internet,Credit Card,3,0
+CID-0079,Male,72.0,3,90.82,257.85,Month-to-Month,Fiber Optic,Credit Card,3,1
+CID-0080,Female,72.0,15,108.97,1677.44,One Year,Fiber Optic,Mailed Check,2,0
+CID-0081,Female,27.0,17,32.23,483.36,One Year,DSL,Electronic Check,5,0
+CID-0082,Male,41.0,15,103.82,1495.13,One Year,Fiber Optic,Credit Card,1,0
+CID-0083,Male,23.0,66,58.41,3926.62,Two Year,DSL,Credit Card,2,0
+CID-0084,Male,21.0,1,109.89,131.67,Month-to-Month,Fiber Optic,Electronic Check,2,1
+CID-0085,Female,41.0,7,23.78,97.16,Month-to-Month,No Internet,Bank Transfer,1,1
+CID-0086,Male,52.0,1,91.14,138.2,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0087,Female,41.0,31,33.63,1109.5,Month-to-Month,DSL,Mailed Check,2,1
+CID-0088,Male,37.0,23,42.96,1040.08,Two Year,DSL,Bank Transfer,3,0
+CID-0089,Male,63.0,23,48.73,1169.57,Two Year,DSL,Electronic Check,2,0
+CID-0090,Female,36.0,39,86.41,,One Year,Fiber Optic,Bank Transfer,3,0
+CID-0091,Male,37.0,6,99.98,710.56,Month-to-Month,Fiber Optic,Mailed Check,3,1
+CID-0092,Male,36.0,3,77.1,284.91,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0093,Female,57.0,29,,1469.94,One Year,DSL,Bank Transfer,1,1
+CID-0094,Female,71.0,11,47.27,493.42,Month-to-Month,DSL,Mailed Check,0,1
+CID-0095,Male,60.0,28,46.77,1289.9,One Year,DSL,Credit Card,1,1
+CID-0096,Female,55.0,7,88.47,604.14,One Year,Fiber Optic,Credit Card,2,1
+CID-0097,Female,,28,46.02,1315.05,One Year,DSL,Electronic Check,0,0
+CID-0098,Female,76.0,25,34.69,798.16,One Year,DSL,Mailed Check,1,0
+CID-0099,Male,49.0,3,,129.97,Month-to-Month,DSL,Mailed Check,1,0
+CID-0100,Female,23.0,2,76.77,160.04,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0101,Male,48.0,49,38.04,1900.65,Two Year,DSL,Mailed Check,4,1
+CID-0102,Male,27.0,31,70.07,2106.75,One Year,Fiber Optic,Bank Transfer,2,1
+CID-0103,Male,32.0,10,,692.64,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0104,Male,51.0,35,97.99,3380.61,Month-to-Month,Fiber Optic,Electronic Check,3,0
+CID-0105,Male,18.0,65,104.11,6695.92,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0106,Male,25.0,45,26.69,1204.36,Month-to-Month,No Internet,Bank Transfer,0,0
+CID-0107,Male,,16,71.66,1168.2,One Year,Fiber Optic,Credit Card,0,1
+CID-0108,Female,38.0,32,91.05,2858.67,One Year,Fiber Optic,Mailed Check,0,0
+CID-0109,Female,44.0,34,69.95,2405.15,One Year,Fiber Optic,Electronic Check,2,1
+CID-0110,Female,54.0,19,44.33,835.77,Month-to-Month,DSL,Mailed Check,1,1
+CID-0111,Male,63.0,2,31.79,31.79,Month-to-Month,DSL,Mailed Check,3,1
+CID-0112,Male,50.0,16,32.26,489.11,Month-to-Month,DSL,Mailed Check,1,0
+CID-0113,Female,,24,19.97,462.61,Month-to-Month,No Internet,Bank Transfer,2,0
+CID-0114,Male,48.0,2,40.46,54.17,Month-to-Month,DSL,Credit Card,0,0
+CID-0115,Female,33.0,38,83.3,3203.74,One Year,Fiber Optic,Electronic Check,0,1
+CID-0116,Male,36.0,19,64.47,,Month-to-Month,DSL,Credit Card,0,0
+CID-0117,Female,52.0,26,67.37,,One Year,Fiber Optic,Electronic Check,1,0
+CID-0118,Male,55.0,21,43.04,949.3,One Year,DSL,Credit Card,2,0
+CID-0119,Male,20.0,22,51.21,1153.31,One Year,DSL,Mailed Check,4,0
+CID-0120,Female,48.0,33,75.83,2501.18,One Year,Fiber Optic,Mailed Check,1,0
+CID-0121,Male,39.0,1,101.34,,Month-to-Month,Fiber Optic,Bank Transfer,3,1
+CID-0122,Male,18.0,3,90.7,250.25,Month-to-Month,Fiber Optic,Mailed Check,5,1
+CID-0123,Female,44.0,19,86.99,1617.34,One Year,Fiber Optic,Electronic Check,0,0
+CID-0124,Female,53.0,3,55.15,136.75,Month-to-Month,DSL,Mailed Check,0,1
+CID-0125,Male,36.0,20,,1324.39,One Year,DSL,Electronic Check,1,0
+CID-0126,Male,37.0,9,35.22,314.77,Month-to-Month,DSL,Credit Card,1,1
+CID-0127,Female,39.0,2,94.66,261.06,Month-to-Month,Fiber Optic,Electronic Check,0,1
+CID-0128,Female,36.0,41,86.44,3574.39,Two Year,Fiber Optic,Electronic Check,3,1
+CID-0129,Male,32.0,26,,2534.83,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0130,Female,33.0,25,108.77,2778.92,Two Year,Fiber Optic,Bank Transfer,3,0
+CID-0131,Male,36.0,13,22.26,326.56,One Year,No Internet,Mailed Check,1,0
+CID-0132,Male,56.0,1,,106.58,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0133,Female,43.0,7,30.25,242.61,Month-to-Month,DSL,Credit Card,1,1
+CID-0134,Female,52.0,9,25.41,268.28,One Year,No Internet,Credit Card,1,1
+CID-0135,Female,18.0,23,22.02,434.07,One Year,No Internet,Bank Transfer,1,0
+CID-0136,Male,,7,88.39,716.96,Month-to-Month,Fiber Optic,Electronic Check,2,1
+CID-0137,Female,26.0,34,,3382.14,Two Year,Fiber Optic,Electronic Check,1,1
+CID-0138,Female,49.0,10,18.04,208.08,Month-to-Month,No Internet,Bank Transfer,0,0
+CID-0139,Female,43.0,21,72.5,1573.68,One Year,Fiber Optic,Mailed Check,1,0
+CID-0140,Male,51.0,20,102.19,2003.77,Month-to-Month,Fiber Optic,Credit Card,2,0
+CID-0141,Female,26.0,39,43.88,1781.24,Two Year,DSL,Electronic Check,1,0
+CID-0142,Female,42.0,33,80.25,2650.49,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0143,Female,35.0,20,23.3,493.11,Month-to-Month,No Internet,Bank Transfer,2,0
+CID-0144,Female,36.0,53,76.19,4026.12,Two Year,Fiber Optic,Credit Card,1,0
+CID-0145,Male,54.0,8,76.32,611.09,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0146,Female,56.0,19,69.74,1239.85,One Year,Fiber Optic,Credit Card,3,1
+CID-0147,Male,36.0,66,29.86,1821.01,Month-to-Month,No Internet,Mailed Check,4,0
+CID-0148,Female,35.0,28,67.47,1897.88,One Year,DSL,Mailed Check,3,1
+CID-0149,Female,36.0,55,33.67,1814.45,Two Year,DSL,Bank Transfer,2,0
+CID-0150,Female,18.0,34,102.95,3543.43,Month-to-Month,Fiber Optic,Mailed Check,3,0
+CID-0151,Male,59.0,3,18.94,53.14,Month-to-Month,No Internet,Electronic Check,2,0
+CID-0152,Female,48.0,16,109.27,1717.76,Month-to-Month,Fiber Optic,Mailed Check,4,0
+CID-0153,Male,18.0,8,27.98,317.99,One Year,No Internet,Mailed Check,1,1
+CID-0154,Male,66.0,28,35.32,1033.12,One Year,DSL,Mailed Check,2,0
+CID-0155,Female,69.0,13,40.83,570.79,Month-to-Month,DSL,Electronic Check,0,0
+CID-0156,Female,18.0,44,77.66,3488.39,Two Year,Fiber Optic,Credit Card,1,0
+CID-0157,Female,52.0,2,90.47,185.06,Month-to-Month,Fiber Optic,Mailed Check,2,0
+CID-0158,Female,35.0,11,74.58,784.63,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0159,Male,68.0,49,65.69,3275.05,Two Year,Fiber Optic,Mailed Check,0,0
+CID-0160,Female,50.0,22,74.39,1608.83,One Year,Fiber Optic,Electronic Check,3,0
+CID-0161,Female,37.0,32,22.64,696.15,Month-to-Month,No Internet,Bank Transfer,2,1
+CID-0162,Male,42.0,39,27.23,962.72,Month-to-Month,No Internet,Mailed Check,1,1
+CID-0163,Female,49.0,12,96.04,1168.46,One Year,Fiber Optic,Mailed Check,2,0
+CID-0164,Male,77.0,59,96.21,5702.89,Two Year,Fiber Optic,Credit Card,1,0
+CID-0165,Male,40.0,12,36.79,563.79,One Year,DSL,Mailed Check,3,1
+CID-0166,Male,25.0,27,54.24,1433.84,One Year,DSL,Electronic Check,0,1
+CID-0167,Female,18.0,13,19.96,197.52,One Year,No Internet,Mailed Check,2,0
+CID-0168,Male,44.0,13,67.35,848.8,Month-to-Month,DSL,Electronic Check,0,0
+CID-0169,Male,25.0,42,25.69,1108.15,Two Year,No Internet,Credit Card,1,0
+CID-0170,Female,39.0,14,25.83,383.97,Month-to-Month,No Internet,Credit Card,2,0
+CID-0171,Female,40.0,17,68.48,1168.44,One Year,DSL,Mailed Check,2,0
+CID-0172,Female,18.0,54,51.33,2833.74,Two Year,DSL,Bank Transfer,2,1
+CID-0173,Female,80.0,1,84.18,,Month-to-Month,Fiber Optic,Electronic Check,2,0
+CID-0174,Male,35.0,2,21.28,21.28,Month-to-Month,No Internet,Mailed Check,2,0
+CID-0175,Female,55.0,52,50.99,2737.51,Two Year,DSL,Electronic Check,1,0
+CID-0176,Male,27.0,3,62.43,246.8,Month-to-Month,DSL,Electronic Check,1,1
+CID-0177,Female,29.0,10,52.02,499.29,One Year,DSL,Mailed Check,1,0
+CID-0178,Male,48.0,24,72.9,1732.72,One Year,Fiber Optic,Electronic Check,1,0
+CID-0179,Male,30.0,29,82.44,2372.7,One Year,Fiber Optic,Mailed Check,2,0
+CID-0180,Female,34.0,42,28.56,1223.51,Two Year,No Internet,Electronic Check,1,0
+CID-0181,Male,41.0,26,92.13,2351.35,One Year,Fiber Optic,Credit Card,1,1
+CID-0182,Female,30.0,33,,1961.4,Two Year,DSL,Electronic Check,1,0
+CID-0183,Female,35.0,1,,,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0184,Female,20.0,1,89.81,89.81,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0185,Female,45.0,2,18.55,18.55,Month-to-Month,No Internet,Credit Card,2,0
+CID-0186,Female,30.0,6,87.05,590.6,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0187,Male,39.0,3,21.62,46.22,Month-to-Month,No Internet,Mailed Check,2,1
+CID-0188,Female,46.0,12,96.55,1118.21,Month-to-Month,Fiber Optic,Bank Transfer,1,0
+CID-0189,Male,38.0,4,93.84,348.51,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0190,Male,55.0,4,93.59,370.41,Month-to-Month,Fiber Optic,Credit Card,2,0
+CID-0191,Male,59.0,22,54.68,1227.32,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0192,Female,53.0,16,78.36,1338.33,One Year,Fiber Optic,Mailed Check,0,1
+CID-0193,Female,19.0,20,34.1,666.49,One Year,DSL,Bank Transfer,1,1
+CID-0194,Male,51.0,33,65.01,2218.17,Two Year,DSL,Electronic Check,2,0
+CID-0195,Male,34.0,2,97.57,152.4,Month-to-Month,Fiber Optic,Mailed Check,1,1
+CID-0196,Male,39.0,3,71.09,173.79,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0197,Female,65.0,19,70.54,1227.0,One Year,Fiber Optic,Mailed Check,1,0
+CID-0198,Male,,3,61.89,185.94,Month-to-Month,DSL,Mailed Check,1,0
+CID-0199,Female,30.0,27,59.37,1641.65,One Year,DSL,Credit Card,0,0
+CID-0200,Male,30.0,38,66.41,2516.54,Two Year,DSL,Bank Transfer,0,0
+CID-0201,Female,53.0,46,23.58,1123.24,Two Year,No Internet,Bank Transfer,3,0
+CID-0202,Female,60.0,32,25.23,900.65,One Year,No Internet,Credit Card,1,0
+CID-0203,Male,40.0,37,43.07,1502.07,Two Year,DSL,Electronic Check,2,0
+CID-0204,Male,39.0,26,21.57,634.06,Month-to-Month,No Internet,Credit Card,1,0
+CID-0205,Female,53.0,26,88.01,2320.38,One Year,Fiber Optic,Bank Transfer,4,0
+CID-0206,Female,62.0,33,102.66,3270.77,One Year,Fiber Optic,Mailed Check,0,0
+CID-0207,Male,33.0,24,70.64,1812.46,One Year,Fiber Optic,Electronic Check,3,0
+CID-0208,Male,70.0,34,45.36,1650.03,Two Year,DSL,Credit Card,4,0
+CID-0209,Female,44.0,44,47.9,2151.12,Two Year,DSL,Credit Card,2,0
+CID-0210,Female,,22,96.2,2127.63,One Year,Fiber Optic,Credit Card,3,0
+CID-0211,Male,53.0,19,69.7,1271.67,One Year,DSL,Mailed Check,2,0
+CID-0212,Male,40.0,22,71.28,1542.72,Month-to-Month,Fiber Optic,Credit Card,2,0
+CID-0213,Male,18.0,9,95.89,849.97,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0214,Female,,20,68.98,1465.09,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0215,Female,37.0,33,19.67,616.95,One Year,No Internet,Mailed Check,1,0
+CID-0216,Female,50.0,17,73.13,1182.53,Month-to-Month,Fiber Optic,Mailed Check,5,1
+CID-0217,Male,,9,97.33,849.63,Month-to-Month,Fiber Optic,Bank Transfer,0,0
+CID-0218,Male,57.0,22,76.4,1657.22,Two Year,Fiber Optic,Electronic Check,2,0
+CID-0219,Male,45.0,24,67.84,1662.68,Month-to-Month,Fiber Optic,Bank Transfer,4,0
+CID-0220,Male,34.0,1,,-45.3,Month-to-Month,Fiber Optic,Credit Card,3,1
+CID-0221,Female,62.0,6,67.11,495.51,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0222,Male,30.0,26,26.04,670.13,One Year,No Internet,Electronic Check,1,0
+CID-0223,Female,31.0,1,32.17,32.17,Month-to-Month,DSL,Electronic Check,2,1
+CID-0224,Female,57.0,6,98.43,593.0,Month-to-Month,Fiber Optic,Mailed Check,2,0
+CID-0225,Male,18.0,12,19.44,277.48,Month-to-Month,No Internet,Electronic Check,0,0
+CID-0226,Male,38.0,31,104.39,3287.04,One Year,Fiber Optic,Credit Card,5,0
+CID-0227,Male,32.0,21,86.51,1777.68,One Year,Fiber Optic,Bank Transfer,2,0
+CID-0228,Male,51.0,5,26.3,104.03,Month-to-Month,No Internet,Mailed Check,1,1
+CID-0229,Male,51.0,35,67.04,2340.5,Two Year,Fiber Optic,Mailed Check,2,1
+CID-0230,Female,19.0,6,18.41,163.96,Month-to-Month,No Internet,Electronic Check,0,0
+CID-0231,Female,40.0,4,53.42,241.57,Month-to-Month,DSL,Mailed Check,2,0
+CID-0232,Female,,43,86.48,3780.38,Two Year,Fiber Optic,Electronic Check,1,0
+CID-0233,Male,44.0,38,84.47,3208.57,One Year,Fiber Optic,Credit Card,3,0
+CID-0234,Female,32.0,7,72.47,509.09,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0235,Male,62.0,13,109.64,1372.73,Month-to-Month,Fiber Optic,Bank Transfer,0,0
+CID-0236,Male,49.0,39,26.92,1033.59,Month-to-Month,No Internet,Credit Card,3,1
+CID-0237,Female,18.0,1,96.09,96.09,Month-to-Month,Fiber Optic,Electronic Check,0,1
+CID-0238,Male,45.0,32,26.4,827.11,Two Year,No Internet,Credit Card,2,0
+CID-0239,Male,52.0,30,26.3,770.32,Two Year,No Internet,Electronic Check,1,0
+CID-0240,Female,39.0,38,26.46,1074.47,Two Year,No Internet,Credit Card,2,0
+CID-0241,Male,55.0,7,83.23,666.09,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0242,Female,50.0,3,26.79,26.79,Month-to-Month,No Internet,Electronic Check,2,1
+CID-0243,Male,35.0,16,24.55,399.14,One Year,No Internet,Credit Card,1,0
+CID-0244,Male,35.0,36,84.92,2995.61,Two Year,Fiber Optic,Bank Transfer,1,1
+CID-0245,Male,26.0,31,74.31,2313.05,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0246,Male,32.0,19,92.59,1805.1,One Year,Fiber Optic,Bank Transfer,1,0
+CID-0247,Female,63.0,36,100.22,3637.03,Two Year,Fiber Optic,Electronic Check,2,0
+CID-0248,Male,64.0,33,27.42,896.18,Two Year,No Internet,Mailed Check,2,0
+CID-0249,Male,54.0,41,71.07,2804.27,Two Year,Fiber Optic,Electronic Check,0,0
+CID-0250,Female,36.0,5,49.28,196.13,Month-to-Month,DSL,Mailed Check,1,1
+CID-0251,Male,41.0,17,68.59,1204.28,Month-to-Month,Fiber Optic,Electronic Check,0,0
+CID-0252,Female,50.0,12,84.23,1006.08,Month-to-Month,Fiber Optic,Credit Card,3,1
+CID-0253,Female,62.0,43,71.79,3082.72,Two Year,Fiber Optic,Credit Card,2,0
+CID-0254,Female,48.0,35,105.41,-120.5,Two Year,Fiber Optic,Bank Transfer,0,0
+CID-0255,Female,40.0,37,66.81,2484.51,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0256,Male,49.0,4,50.16,190.45,Month-to-Month,DSL,Bank Transfer,1,1
+CID-0257,Male,40.0,5,19.02,52.59,Month-to-Month,No Internet,Electronic Check,2,1
+CID-0258,Male,38.0,34,79.01,2654.87,Month-to-Month,Fiber Optic,Mailed Check,2,0
+CID-0259,Female,24.0,32,35.91,1168.41,One Year,DSL,Mailed Check,3,0
+CID-0260,Male,39.0,36,60.26,2191.27,Month-to-Month,DSL,Credit Card,3,1
+CID-0261,Male,32.0,14,82.32,1170.34,Month-to-Month,Fiber Optic,Credit Card,1,0
+CID-0262,Male,45.0,36,25.04,931.94,Two Year,No Internet,Credit Card,0,0
+CID-0263,Male,46.0,13,24.89,312.02,Month-to-Month,No Internet,Mailed Check,4,0
+CID-0264,Male,58.0,22,48.56,1124.46,One Year,DSL,Bank Transfer,0,0
+CID-0265,Female,21.0,3,74.26,197.17,Month-to-Month,Fiber Optic,Electronic Check,2,1
+CID-0266,Female,26.0,3,62.61,204.76,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0267,Female,30.0,9,47.6,440.76,Month-to-Month,DSL,Credit Card,3,1
+CID-0268,Female,40.0,10,55.38,500.88,Month-to-Month,DSL,Mailed Check,2,0
+CID-0269,Female,28.0,12,72.4,832.95,One Year,Fiber Optic,Mailed Check,1,0
+CID-0270,Male,63.0,54,87.97,4715.09,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0271,Female,51.0,7,107.0,718.51,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0272,Male,44.0,34,62.9,2177.11,One Year,Fiber Optic,Bank Transfer,0,0
+CID-0273,Female,53.0,22,106.39,2356.18,Month-to-Month,Fiber Optic,Bank Transfer,2,0
+CID-0274,Male,48.0,13,31.42,328.15,Month-to-Month,DSL,Electronic Check,2,1
+CID-0275,Female,43.0,10,25.57,350.87,Month-to-Month,No Internet,Mailed Check,0,0
+CID-0276,Female,38.0,10,50.08,462.55,Month-to-Month,DSL,Credit Card,0,1
+CID-0277,Female,39.0,12,64.04,843.83,Month-to-Month,DSL,Electronic Check,2,1
+CID-0278,Female,69.0,34,61.04,2080.93,Two Year,Fiber Optic,Credit Card,2,0
+CID-0279,Female,25.0,8,82.55,650.76,Month-to-Month,Fiber Optic,Credit Card,1,0
+CID-0280,Male,39.0,20,98.65,1868.57,One Year,Fiber Optic,Bank Transfer,1,0
+CID-0281,Female,43.0,40,63.2,2588.55,One Year,Fiber Optic,Electronic Check,2,1
+CID-0282,Male,49.0,14,65.3,922.27,One Year,DSL,Electronic Check,2,0
+CID-0283,Female,28.0,48,39.7,1794.99,Month-to-Month,DSL,Credit Card,0,1
+CID-0284,Male,55.0,54,72.35,3860.43,Two Year,Fiber Optic,Credit Card,0,0
+CID-0285,Female,47.0,6,29.8,171.2,Month-to-Month,No Internet,Credit Card,3,1
+CID-0286,Male,27.0,31,27.9,,One Year,No Internet,Credit Card,4,0
+CID-0287,Female,22.0,1,80.45,,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0288,Male,57.0,51,42.09,2124.1,Two Year,DSL,Mailed Check,0,0
+CID-0289,Male,29.0,43,,1377.07,Month-to-Month,DSL,Electronic Check,3,0
+CID-0290,Male,45.0,4,71.31,294.27,Month-to-Month,Fiber Optic,Bank Transfer,1,0
+CID-0291,Male,80.0,12,64.71,787.12,Two Year,DSL,Electronic Check,2,0
+CID-0292,Female,61.0,18,89.61,1693.15,One Year,Fiber Optic,Electronic Check,0,0
+CID-0293,Female,35.0,1,31.51,31.51,Month-to-Month,DSL,Mailed Check,0,1
+CID-0294,Female,38.0,24,19.43,480.22,One Year,No Internet,Bank Transfer,2,0
+CID-0295,Male,30.0,1,93.02,93.02,Month-to-Month,Fiber Optic,Credit Card,3,1
+CID-0296,Female,45.0,1,80.36,80.36,Month-to-Month,Fiber Optic,Mailed Check,0,1
+CID-0297,Male,31.0,39,57.93,2327.23,Two Year,DSL,Electronic Check,3,0
+CID-0298,Male,46.0,9,31.78,215.88,Month-to-Month,DSL,Bank Transfer,2,0
+CID-0299,Female,18.0,1,33.65,,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0300,Female,53.0,29,53.27,1593.3,One Year,DSL,Electronic Check,1,0
+CID-0301,Male,,20,94.47,1960.39,One Year,Fiber Optic,Mailed Check,2,0
+CID-0302,Male,,16,75.94,1131.41,One Year,Fiber Optic,Mailed Check,3,1
+CID-0303,Male,52.0,1,19.46,48.67,Month-to-Month,No Internet,Mailed Check,1,0
+CID-0304,Male,53.0,17,77.67,1394.36,One Year,Fiber Optic,Electronic Check,2,1
+CID-0305,Female,18.0,17,88.31,1519.43,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0306,Male,50.0,16,36.72,582.44,Month-to-Month,DSL,Credit Card,0,1
+CID-0307,Male,42.0,1,23.71,23.71,Month-to-Month,No Internet,Mailed Check,4,0
+CID-0308,Male,65.0,10,18.07,225.66,Month-to-Month,No Internet,Bank Transfer,1,1
+CID-0309,Female,52.0,45,68.06,3104.77,Two Year,DSL,Bank Transfer,0,1
+CID-0310,Male,51.0,48,67.96,3302.42,Two Year,Fiber Optic,Electronic Check,4,0
+CID-0311,Male,22.0,58,94.82,5486.4,Two Year,Fiber Optic,Electronic Check,0,0
+CID-0312,Female,30.0,20,29.32,624.38,Month-to-Month,No Internet,Mailed Check,0,1
+CID-0313,Male,43.0,11,45.7,461.94,Month-to-Month,DSL,Electronic Check,3,0
+CID-0314,Female,51.0,16,79.89,1164.05,One Year,Fiber Optic,Bank Transfer,0,0
+CID-0315,Male,33.0,38,93.42,3602.76,One Year,Fiber Optic,Electronic Check,0,0
+CID-0316,Female,33.0,50,92.37,4659.78,Month-to-Month,Fiber Optic,Electronic Check,0,0
+CID-0317,Male,49.0,39,,3151.22,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0318,Female,47.0,40,68.31,2720.5,Two Year,Fiber Optic,Electronic Check,0,0
+CID-0319,Female,34.0,21,61.73,,Month-to-Month,DSL,Mailed Check,1,1
+CID-0320,Male,40.0,11,85.35,902.14,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0321,Female,46.0,12,65.29,782.0,One Year,DSL,Mailed Check,1,0
+CID-0322,Female,41.0,1,97.39,140.21,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0323,Male,31.0,23,62.11,1395.53,One Year,DSL,Mailed Check,0,0
+CID-0324,Female,,72,69.81,5043.95,Two Year,DSL,Electronic Check,0,0
+CID-0325,Female,41.0,35,72.45,2546.47,Two Year,Fiber Optic,Credit Card,2,0
+CID-0326,Male,32.0,40,85.4,3330.94,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0327,Female,41.0,28,50.09,1344.95,Two Year,DSL,Bank Transfer,1,0
+CID-0328,Female,30.0,5,19.59,141.19,Month-to-Month,No Internet,Credit Card,2,1
+CID-0329,Female,45.0,41,86.53,3569.39,Two Year,Fiber Optic,Bank Transfer,1,0
+CID-0330,Female,18.0,29,106.63,3117.19,Month-to-Month,Fiber Optic,Electronic Check,3,1
+CID-0331,Male,23.0,40,36.93,1336.48,Two Year,DSL,Mailed Check,1,0
+CID-0332,Male,32.0,5,62.82,262.58,Month-to-Month,DSL,Mailed Check,2,0
+CID-0333,Male,67.0,7,45.49,353.57,Month-to-Month,DSL,Credit Card,1,1
+CID-0334,Female,23.0,37,55.78,2195.28,Two Year,DSL,Credit Card,0,0
+CID-0335,Male,43.0,24,75.3,1788.63,Month-to-Month,Fiber Optic,Mailed Check,2,0
+CID-0336,Female,49.0,3,72.99,241.55,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0337,Male,43.0,10,63.51,712.09,Month-to-Month,DSL,Credit Card,0,0
+CID-0338,Female,70.0,16,95.18,1463.02,Month-to-Month,Fiber Optic,Mailed Check,3,0
+CID-0339,Male,53.0,20,66.05,1237.87,One Year,DSL,Bank Transfer,2,0
+CID-0340,Female,37.0,24,22.18,574.69,One Year,No Internet,Credit Card,1,0
+CID-0341,Male,53.0,8,66.1,513.72,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0342,Female,70.0,22,32.68,721.4,One Year,DSL,Electronic Check,2,0
+CID-0343,Female,34.0,10,107.33,1074.5,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0344,Female,40.0,30,103.25,3160.36,One Year,Fiber Optic,Mailed Check,3,1
+CID-0345,Female,48.0,51,40.41,2038.09,Two Year,DSL,Electronic Check,0,0
+CID-0346,Female,58.0,11,107.99,1120.64,One Year,Fiber Optic,Credit Card,1,1
+CID-0347,Female,48.0,1,67.74,67.74,Month-to-Month,DSL,Credit Card,3,0
+CID-0348,Female,50.0,1,92.58,92.58,Month-to-Month,Fiber Optic,Bank Transfer,2,0
+CID-0349,Female,42.0,28,101.66,2886.13,One Year,Fiber Optic,Mailed Check,2,0
+CID-0350,Male,64.0,2,105.81,251.25,Month-to-Month,Fiber Optic,Credit Card,1,0
+CID-0351,Female,24.0,49,92.92,4601.3,Two Year,Fiber Optic,Mailed Check,2,0
+CID-0352,Male,48.0,31,50.0,1633.04,One Year,DSL,Mailed Check,2,0
+CID-0353,Male,66.0,29,18.68,489.37,Two Year,No Internet,Bank Transfer,2,0
+CID-0354,Male,78.0,47,36.07,1683.2,Two Year,DSL,Electronic Check,4,1
+CID-0355,Female,50.0,34,98.0,3268.15,Two Year,Fiber Optic,Mailed Check,2,1
+CID-0356,Male,,32,56.3,1725.28,One Year,DSL,Credit Card,2,0
+CID-0357,Male,53.0,20,54.88,1059.07,Month-to-Month,DSL,Bank Transfer,3,1
+CID-0358,Male,37.0,7,24.72,230.04,Month-to-Month,No Internet,Bank Transfer,0,1
+CID-0359,Female,44.0,7,37.46,243.15,One Year,DSL,Credit Card,1,0
+CID-0360,Female,51.0,8,77.95,564.74,Month-to-Month,Fiber Optic,Mailed Check,3,1
+CID-0361,Male,42.0,26,87.94,2225.96,Month-to-Month,Fiber Optic,Bank Transfer,2,0
+CID-0362,Female,39.0,48,71.7,3441.5,One Year,Fiber Optic,Mailed Check,0,0
+CID-0363,Male,42.0,48,30.78,1521.35,Two Year,DSL,Electronic Check,1,0
+CID-0364,Female,22.0,27,25.56,674.87,One Year,No Internet,Electronic Check,2,0
+CID-0365,Female,48.0,9,18.8,247.35,Month-to-Month,No Internet,Electronic Check,3,1
+CID-0366,Female,41.0,58,30.41,1699.4,Two Year,DSL,Credit Card,0,1
+CID-0367,Female,18.0,29,88.36,2532.32,One Year,Fiber Optic,Electronic Check,2,0
+CID-0368,Female,42.0,24,106.52,2535.41,One Year,Fiber Optic,Credit Card,1,0
+CID-0369,Female,47.0,14,83.96,1243.09,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0370,Male,35.0,38,55.27,2077.42,Month-to-Month,DSL,Mailed Check,1,0
+CID-0371,Male,54.0,29,61.9,1745.4,Two Year,DSL,Credit Card,4,1
+CID-0372,Male,48.0,57,68.09,3826.74,Two Year,DSL,Bank Transfer,1,0
+CID-0373,Male,35.0,26,81.29,2061.97,One Year,Fiber Optic,Electronic Check,0,0
+CID-0374,Male,48.0,22,33.55,754.15,One Year,DSL,Mailed Check,0,0
+CID-0375,Male,36.0,4,80.61,357.72,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0376,Male,61.0,1,,56.32,Month-to-Month,DSL,Electronic Check,3,0
+CID-0377,Male,43.0,30,109.99,,One Year,Fiber Optic,Bank Transfer,0,0
+CID-0378,Female,23.0,36,60.02,2161.58,Two Year,DSL,Bank Transfer,1,0
+CID-0379,Female,38.0,20,28.42,629.09,Month-to-Month,No Internet,Credit Card,0,1
+CID-0380,Male,54.0,11,68.37,693.92,Month-to-Month,Fiber Optic,Bank Transfer,0,1
+CID-0381,Female,61.0,8,27.29,219.97,Month-to-Month,No Internet,Mailed Check,2,1
+CID-0382,Male,51.0,34,37.67,1238.67,Two Year,DSL,Mailed Check,3,1
+CID-0383,Male,45.0,8,44.49,-200.0,Month-to-Month,DSL,Electronic Check,2,1
+CID-0384,Female,55.0,22,,620.13,Month-to-Month,No Internet,Electronic Check,1,0
+CID-0385,Male,47.0,23,100.84,2281.41,One Year,Fiber Optic,Electronic Check,1,0
+CID-0386,Male,38.0,8,103.76,793.17,One Year,Fiber Optic,Mailed Check,3,1
+CID-0387,Male,55.0,20,63.57,1292.21,One Year,DSL,Mailed Check,2,0
+CID-0388,Female,55.0,35,48.22,1687.04,One Year,DSL,Credit Card,1,0
+CID-0389,Female,31.0,16,103.58,1677.31,One Year,Fiber Optic,Electronic Check,1,0
+CID-0390,Male,51.0,46,105.98,4872.89,Two Year,Fiber Optic,Credit Card,2,1
+CID-0391,Male,57.0,6,87.68,599.38,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0392,Male,32.0,1,39.62,39.62,Month-to-Month,DSL,Bank Transfer,2,1
+CID-0393,Male,58.0,67,101.51,6907.43,Two Year,Fiber Optic,Electronic Check,0,0
+CID-0394,Male,59.0,40,100.18,3921.82,Two Year,Fiber Optic,Credit Card,2,0
+CID-0395,Male,58.0,28,,1492.05,One Year,DSL,Bank Transfer,2,1
+CID-0396,Male,46.0,9,37.09,269.34,Month-to-Month,DSL,Credit Card,1,0
+CID-0397,Female,34.0,19,,1403.65,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0398,Female,42.0,51,25.27,,Two Year,No Internet,Electronic Check,3,0
+CID-0399,Male,57.0,11,50.21,537.4,Month-to-Month,DSL,Credit Card,2,1
+CID-0400,Male,28.0,8,29.95,269.66,Month-to-Month,No Internet,Electronic Check,1,1
+CID-0401,Female,20.0,2,40.39,40.39,Month-to-Month,DSL,Credit Card,2,0
+CID-0402,Male,38.0,29,49.78,1451.01,One Year,DSL,Bank Transfer,1,0
+CID-0403,Male,57.0,21,48.99,1049.33,One Year,DSL,Electronic Check,0,0
+CID-0404,Male,26.0,45,86.51,3891.67,Two Year,Fiber Optic,Mailed Check,2,0
+CID-0405,Male,26.0,39,64.27,2479.62,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0406,Female,18.0,25,107.74,2579.29,One Year,Fiber Optic,Credit Card,0,0
+CID-0407,Male,29.0,31,50.62,,Two Year,DSL,Mailed Check,3,0
+CID-0408,Male,45.0,3,98.64,348.31,Month-to-Month,Fiber Optic,Bank Transfer,4,0
+CID-0409,Female,29.0,47,65.1,3127.01,One Year,Fiber Optic,Bank Transfer,2,1
+CID-0410,Male,48.0,16,35.42,540.24,One Year,DSL,Bank Transfer,0,0
+CID-0411,Female,46.0,30,74.58,2214.23,One Year,Fiber Optic,Electronic Check,0,0
+CID-0412,Male,30.0,8,106.98,775.17,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0413,Female,18.0,16,89.91,1278.34,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0414,Male,52.0,3,55.18,297.94,Month-to-Month,DSL,Mailed Check,0,0
+CID-0415,Male,47.0,27,93.62,2547.78,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0416,Male,61.0,2,67.39,263.34,Month-to-Month,Fiber Optic,Electronic Check,3,1
+CID-0417,Male,33.0,25,56.7,1396.58,Two Year,DSL,Mailed Check,1,1
+CID-0418,Female,35.0,11,,918.04,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0419,Female,22.0,4,59.0,174.66,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0420,Male,40.0,27,72.96,1919.58,One Year,Fiber Optic,Mailed Check,2,0
+CID-0421,Female,39.0,34,59.94,2021.17,Two Year,DSL,Electronic Check,1,0
+CID-0422,Female,47.0,35,93.9,3243.32,Two Year,Fiber Optic,Mailed Check,2,0
+CID-0423,Male,62.0,11,29.43,366.48,Month-to-Month,No Internet,Credit Card,2,1
+CID-0424,Female,47.0,22,67.06,1376.27,One Year,DSL,Credit Card,1,0
+CID-0425,Male,66.0,14,86.76,1219.5,One Year,Fiber Optic,Bank Transfer,0,1
+CID-0426,Male,41.0,39,30.28,1118.28,Two Year,DSL,Electronic Check,2,0
+CID-0427,Male,61.0,1,39.21,39.21,Month-to-Month,DSL,Bank Transfer,0,1
+CID-0428,Female,57.0,25,43.72,1087.82,One Year,DSL,Electronic Check,0,0
+CID-0429,Male,53.0,48,65.68,3182.53,Two Year,DSL,Bank Transfer,1,0
+CID-0430,Female,35.0,22,24.1,577.82,Month-to-Month,No Internet,Electronic Check,2,0
+CID-0431,Female,40.0,28,18.52,616.11,One Year,No Internet,Credit Card,1,0
+CID-0432,Male,18.0,36,41.23,1496.51,Two Year,DSL,Bank Transfer,2,0
+CID-0433,Female,31.0,25,103.3,2666.99,Two Year,Fiber Optic,Credit Card,0,0
+CID-0434,Male,47.0,4,87.35,349.77,Month-to-Month,Fiber Optic,Mailed Check,1,1
+CID-0435,Male,43.0,29,44.45,1321.75,One Year,DSL,Credit Card,1,1
+CID-0436,Male,47.0,18,26.71,524.68,Month-to-Month,No Internet,Mailed Check,0,1
+CID-0437,Female,53.0,6,83.09,509.85,Month-to-Month,Fiber Optic,Electronic Check,2,1
+CID-0438,Male,51.0,20,84.79,1656.2,One Year,Fiber Optic,Bank Transfer,3,0
+CID-0439,Male,53.0,35,96.4,3294.84,One Year,Fiber Optic,Electronic Check,0,1
+CID-0440,Female,64.0,24,106.64,2593.41,Month-to-Month,Fiber Optic,Electronic Check,0,0
+CID-0441,Male,80.0,30,46.07,1369.48,One Year,DSL,Electronic Check,0,0
+CID-0442,Female,35.0,27,18.73,522.29,Two Year,No Internet,Mailed Check,3,0
+CID-0443,Female,49.0,11,100.8,1100.84,Month-to-Month,Fiber Optic,Electronic Check,2,0
+CID-0444,Female,38.0,21,77.88,1611.2,One Year,Fiber Optic,Electronic Check,1,0
+CID-0445,Female,42.0,53,23.33,1254.62,Two Year,No Internet,Credit Card,2,0
+CID-0446,Male,43.0,19,103.86,,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0447,Male,28.0,47,68.71,3222.34,Two Year,DSL,Mailed Check,5,0
+CID-0448,Female,36.0,5,78.78,397.52,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0449,Female,47.0,2,99.47,251.93,Month-to-Month,Fiber Optic,Credit Card,3,1
+CID-0450,Female,43.0,2,89.95,179.55,Month-to-Month,Fiber Optic,Bank Transfer,4,1
+CID-0451,Male,73.0,25,99.19,2412.09,One Year,Fiber Optic,Electronic Check,3,0
+CID-0452,Female,44.0,15,92.71,,One Year,Fiber Optic,Mailed Check,6,1
+CID-0453,Male,18.0,23,27.13,579.31,One Year,No Internet,Credit Card,0,0
+CID-0454,Female,50.0,14,48.4,650.34,One Year,DSL,Credit Card,2,0
+CID-0455,Male,52.0,12,29.91,394.86,Month-to-Month,No Internet,Credit Card,1,1
+CID-0456,Female,42.0,18,73.91,1280.65,One Year,Fiber Optic,Mailed Check,2,0
+CID-0457,Female,41.0,7,20.02,185.41,Month-to-Month,No Internet,Bank Transfer,0,0
+CID-0458,Male,32.0,42,106.04,4508.38,Two Year,Fiber Optic,Bank Transfer,1,0
+CID-0459,Female,46.0,26,87.38,2270.16,One Year,Fiber Optic,Electronic Check,1,0
+CID-0460,Male,18.0,6,91.8,576.45,Month-to-Month,Fiber Optic,Bank Transfer,5,0
+CID-0461,Female,47.0,28,101.36,2836.87,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0462,Male,63.0,16,73.25,,One Year,Fiber Optic,Mailed Check,2,0
+CID-0463,Male,69.0,37,29.3,1020.21,Two Year,No Internet,Mailed Check,1,0
+CID-0464,Male,62.0,44,83.89,3729.31,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0465,Male,41.0,9,33.11,292.69,Month-to-Month,DSL,Mailed Check,0,0
+CID-0466,Female,57.0,2,39.03,95.89,Month-to-Month,DSL,Credit Card,3,1
+CID-0467,Female,56.0,2,81.58,156.36,Month-to-Month,Fiber Optic,Mailed Check,0,1
+CID-0468,Male,66.0,49,86.12,4219.74,Two Year,Fiber Optic,Electronic Check,2,0
+CID-0469,Male,38.0,1,108.43,142.87,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0470,Female,57.0,18,57.7,1009.32,Month-to-Month,DSL,Bank Transfer,3,0
+CID-0471,Female,33.0,34,64.58,2219.95,Two Year,DSL,Electronic Check,3,0
+CID-0472,Male,52.0,1,35.81,76.8,Month-to-Month,DSL,Mailed Check,2,1
+CID-0473,Female,28.0,5,72.69,223.0,Month-to-Month,Fiber Optic,Credit Card,1,0
+CID-0474,Male,56.0,47,,3337.75,Two Year,DSL,Mailed Check,3,1
+CID-0475,Male,53.0,44,91.52,4048.34,Two Year,Fiber Optic,Credit Card,1,1
+CID-0476,Female,48.0,50,25.66,1337.82,Two Year,No Internet,Bank Transfer,0,0
+CID-0477,Female,41.0,49,27.37,1400.85,Two Year,No Internet,Electronic Check,0,0
+CID-0478,Male,24.0,2,25.73,114.82,Month-to-Month,No Internet,Mailed Check,2,1
+CID-0479,Female,34.0,35,23.48,847.32,One Year,No Internet,Mailed Check,2,0
+CID-0480,Female,34.0,4,93.19,367.38,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0481,Male,49.0,3,88.04,250.02,Month-to-Month,Fiber Optic,Mailed Check,2,0
+CID-0482,Female,18.0,4,24.75,130.56,Month-to-Month,No Internet,Mailed Check,1,1
+CID-0483,Female,27.0,9,78.1,770.92,Month-to-Month,Fiber Optic,Credit Card,2,0
+CID-0484,Male,27.0,48,58.09,2866.04,Two Year,DSL,Bank Transfer,0,0
+CID-0485,Male,54.0,7,76.71,512.43,Month-to-Month,Fiber Optic,Electronic Check,3,1
+CID-0486,Female,49.0,19,33.38,634.18,Month-to-Month,DSL,Electronic Check,1,0
+CID-0487,Female,37.0,19,41.91,827.79,One Year,DSL,Electronic Check,2,0
+CID-0488,Female,19.0,17,65.34,1196.16,One Year,Fiber Optic,Credit Card,0,0
+CID-0489,Female,,6,29.29,158.53,Month-to-Month,No Internet,Electronic Check,0,1
+CID-0490,Male,58.0,14,62.74,973.72,One Year,DSL,Credit Card,2,0
+CID-0491,Male,74.0,31,98.37,2964.27,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0492,Male,39.0,1,,38.54,Month-to-Month,DSL,Bank Transfer,2,1
+CID-0493,Male,54.0,17,60.86,1019.49,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0494,Female,18.0,22,,389.52,Month-to-Month,No Internet,Bank Transfer,1,0
+CID-0495,Male,58.0,39,105.07,4090.05,Two Year,Fiber Optic,Bank Transfer,2,0
+CID-0496,Female,35.0,17,45.72,853.25,One Year,DSL,Mailed Check,1,0
+CID-0497,Male,30.0,42,63.5,2704.26,Two Year,Fiber Optic,Mailed Check,3,0
+CID-0498,Male,23.0,31,103.19,,One Year,Fiber Optic,Mailed Check,1,0
+CID-0499,Female,72.0,39,58.0,2305.9,Two Year,DSL,Bank Transfer,1,0
+CID-0500,Female,58.0,32,103.08,3282.71,Two Year,Fiber Optic,Credit Card,2,0
+CID-0501,Female,,58,77.3,4551.57,Two Year,Fiber Optic,Electronic Check,3,0
+CID-0502,Female,39.0,38,76.66,2929.85,One Year,Fiber Optic,Mailed Check,0,1
+CID-0503,Female,29.0,1,103.93,165.88,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0504,Female,37.0,1,29.34,95.71,Month-to-Month,No Internet,Mailed Check,0,1
+CID-0505,Male,54.0,23,68.1,1619.13,Month-to-Month,DSL,Mailed Check,1,0
+CID-0506,Male,57.0,15,97.3,1417.46,One Year,Fiber Optic,Credit Card,6,1
+CID-0507,Male,41.0,49,103.94,5025.75,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0508,Male,40.0,34,63.11,2197.82,Month-to-Month,Fiber Optic,Bank Transfer,4,1
+CID-0509,Female,64.0,46,109.7,4999.15,Two Year,Fiber Optic,Electronic Check,0,0
+CID-0510,Male,52.0,24,88.91,2177.63,One Year,Fiber Optic,Credit Card,1,1
+CID-0511,Male,40.0,25,80.65,2041.97,One Year,Fiber Optic,Electronic Check,1,0
+CID-0512,Female,,11,64.93,731.71,One Year,Fiber Optic,Mailed Check,2,1
+CID-0513,Male,55.0,5,66.9,336.45,Month-to-Month,Fiber Optic,Bank Transfer,4,1
+CID-0514,Female,23.0,34,29.38,949.86,Two Year,No Internet,Mailed Check,1,1
+CID-0515,Female,,1,,18.91,Month-to-Month,No Internet,Bank Transfer,1,0
+CID-0516,Female,40.0,6,104.56,608.39,Month-to-Month,Fiber Optic,Electronic Check,2,0
+CID-0517,Female,33.0,19,106.81,2014.61,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0518,Male,50.0,17,62.41,986.6,Month-to-Month,DSL,Credit Card,2,0
+CID-0519,Female,,3,43.5,102.99,Month-to-Month,DSL,Electronic Check,2,0
+CID-0520,Male,33.0,26,18.09,454.11,Month-to-Month,No Internet,Mailed Check,1,1
+CID-0521,Female,33.0,16,70.35,1140.76,One Year,Fiber Optic,Credit Card,0,0
+CID-0522,Female,56.0,28,66.28,1896.35,One Year,DSL,Electronic Check,2,1
+CID-0523,Male,24.0,25,103.58,2602.98,Two Year,Fiber Optic,Credit Card,0,1
+CID-0524,Female,37.0,16,109.25,1751.47,Month-to-Month,Fiber Optic,Credit Card,3,0
+CID-0525,Female,33.0,13,97.06,1260.5,Month-to-Month,Fiber Optic,Credit Card,1,1
+CID-0526,Female,44.0,26,57.0,1407.01,One Year,DSL,Bank Transfer,2,1
+CID-0527,Male,46.0,32,64.46,2071.26,Two Year,DSL,Credit Card,4,0
+CID-0528,Male,38.0,31,19.86,644.85,Two Year,No Internet,Credit Card,2,0
+CID-0529,Male,43.0,24,77.51,1886.43,One Year,Fiber Optic,Credit Card,2,0
+CID-0530,Female,28.0,19,65.24,1214.4,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0531,Female,18.0,6,43.33,343.37,Month-to-Month,DSL,Credit Card,0,0
+CID-0532,Female,56.0,25,20.39,541.04,Month-to-Month,No Internet,Mailed Check,2,1
+CID-0533,Female,32.0,22,92.25,2000.77,One Year,Fiber Optic,Electronic Check,2,1
+CID-0534,Female,57.0,42,19.26,885.4,Two Year,No Internet,Bank Transfer,3,1
+CID-0535,Female,57.0,18,53.93,939.98,One Year,DSL,Bank Transfer,2,0
+CID-0536,Female,44.0,55,108.05,5918.16,Two Year,Fiber Optic,Bank Transfer,0,0
+CID-0537,Female,34.0,46,41.0,1908.17,Two Year,DSL,Bank Transfer,1,0
+CID-0538,Female,40.0,9,,762.86,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0539,Male,40.0,25,28.13,753.33,One Year,No Internet,Bank Transfer,1,0
+CID-0540,Male,46.0,15,67.29,1030.42,Month-to-Month,Fiber Optic,Credit Card,1,0
+CID-0541,Male,50.0,1,37.99,49.88,Month-to-Month,DSL,Electronic Check,2,0
+CID-0542,Male,59.0,15,30.08,383.74,Month-to-Month,DSL,Mailed Check,3,1
+CID-0543,Male,45.0,45,76.23,3484.98,Two Year,Fiber Optic,Credit Card,1,0
+CID-0544,Female,24.0,14,70.89,1013.65,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0545,Male,44.0,41,109.45,4548.55,Month-to-Month,Fiber Optic,Electronic Check,4,1
+CID-0546,Male,55.0,25,90.9,2348.62,Month-to-Month,Fiber Optic,Bank Transfer,0,1
+CID-0547,Male,34.0,31,26.53,753.9,Month-to-Month,No Internet,Bank Transfer,2,0
+CID-0548,Female,,1,78.77,157.07,Month-to-Month,Fiber Optic,Mailed Check,0,1
+CID-0549,Male,33.0,19,93.61,1816.77,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0550,Male,24.0,30,71.66,2164.76,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0551,Female,59.0,27,19.04,517.06,Month-to-Month,No Internet,Mailed Check,0,1
+CID-0552,Male,51.0,53,66.8,3497.38,Two Year,DSL,Credit Card,1,1
+CID-0553,Female,55.0,16,33.56,558.28,Month-to-Month,DSL,Mailed Check,1,0
+CID-0554,Male,28.0,2,30.11,100.06,Month-to-Month,DSL,Mailed Check,1,1
+CID-0555,Female,43.0,16,72.81,,Month-to-Month,Fiber Optic,Mailed Check,1,0
+CID-0556,Male,18.0,42,36.86,1508.09,Two Year,DSL,Electronic Check,2,0
+CID-0557,Male,19.0,4,35.06,121.63,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0558,Female,54.0,18,72.11,1377.7,One Year,Fiber Optic,Electronic Check,0,0
+CID-0559,Male,23.0,11,54.54,697.42,One Year,DSL,Electronic Check,2,0
+CID-0560,Male,42.0,2,61.35,61.35,Month-to-Month,DSL,Electronic Check,1,1
+CID-0561,Female,54.0,5,87.77,455.35,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0562,Male,34.0,1,74.29,135.72,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0563,Female,25.0,54,18.52,1020.26,Two Year,No Internet,Bank Transfer,2,0
+CID-0564,Female,49.0,23,44.2,950.78,One Year,DSL,Credit Card,0,0
+CID-0565,Female,38.0,33,41.49,1408.94,Two Year,DSL,Mailed Check,0,0
+CID-0566,Female,32.0,10,100.14,1154.12,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0567,Female,23.0,5,89.7,479.47,Month-to-Month,Fiber Optic,Credit Card,0,1
+CID-0568,Female,29.0,4,20.12,83.85,Month-to-Month,No Internet,Electronic Check,1,0
+CID-0569,Female,18.0,23,23.91,595.46,One Year,No Internet,Mailed Check,0,0
+CID-0570,Female,47.0,31,28.6,796.14,One Year,No Internet,Bank Transfer,1,0
+CID-0571,Female,34.0,32,45.16,1332.43,Month-to-Month,DSL,Electronic Check,1,0
+CID-0572,Female,38.0,6,108.73,575.63,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0573,Female,37.0,47,68.91,3251.07,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0574,Female,33.0,28,48.83,1384.82,One Year,DSL,Credit Card,0,0
+CID-0575,Female,40.0,29,18.57,562.43,One Year,No Internet,Bank Transfer,1,0
+CID-0576,Male,34.0,6,55.82,308.69,Month-to-Month,DSL,Electronic Check,2,1
+CID-0577,Female,18.0,14,93.82,1249.35,One Year,Fiber Optic,Mailed Check,0,0
+CID-0578,Female,52.0,17,18.55,,One Year,No Internet,Electronic Check,2,0
+CID-0579,Female,56.0,21,68.1,1555.44,One Year,Fiber Optic,Mailed Check,1,0
+CID-0580,Female,57.0,18,34.92,616.9,Month-to-Month,DSL,Mailed Check,1,0
+CID-0581,Male,23.0,23,103.97,2412.49,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0582,Male,57.0,10,58.9,570.88,Month-to-Month,DSL,Bank Transfer,2,1
+CID-0583,Female,28.0,26,68.15,1870.33,Two Year,Fiber Optic,Electronic Check,1,0
+CID-0584,Male,56.0,15,43.6,779.95,One Year,DSL,Bank Transfer,1,0
+CID-0585,Male,49.0,21,86.96,,Month-to-Month,Fiber Optic,Electronic Check,1,0
+CID-0586,Male,46.0,6,30.56,84.61,Month-to-Month,DSL,Bank Transfer,2,0
+CID-0587,Male,18.0,25,29.73,805.85,One Year,No Internet,Bank Transfer,3,0
+CID-0588,Male,51.0,31,30.05,915.1,One Year,DSL,Bank Transfer,0,0
+CID-0589,Female,51.0,47,56.92,2694.0,Two Year,DSL,Electronic Check,0,0
+CID-0590,Male,,18,34.51,572.74,Month-to-Month,DSL,Electronic Check,3,0
+CID-0591,Female,31.0,51,65.36,3341.48,Two Year,Fiber Optic,Credit Card,4,0
+CID-0592,Female,29.0,34,107.0,3598.21,Two Year,Fiber Optic,Mailed Check,1,0
+CID-0593,Male,58.0,54,64.2,3481.74,Two Year,Fiber Optic,Bank Transfer,1,0
+CID-0594,Female,41.0,31,39.72,1291.0,Two Year,DSL,Bank Transfer,0,1
+CID-0595,Male,25.0,3,82.3,275.82,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0596,Male,57.0,1,103.48,103.48,Month-to-Month,Fiber Optic,Credit Card,2,1
+CID-0597,Female,55.0,48,52.24,2478.37,Two Year,DSL,Electronic Check,1,0
+CID-0598,Male,70.0,13,60.76,,Month-to-Month,Fiber Optic,Credit Card,0,0
+CID-0599,Female,35.0,15,54.86,848.88,One Year,DSL,Credit Card,2,0
+CID-0600,Male,38.0,8,56.91,418.95,Month-to-Month,DSL,Electronic Check,2,0
+CID-0601,Female,18.0,11,91.92,1001.2,Month-to-Month,Fiber Optic,Mailed Check,3,1
+CID-0602,Female,,1,88.82,88.82,Month-to-Month,Fiber Optic,Bank Transfer,2,1
+CID-0603,Female,27.0,61,58.51,3562.96,Two Year,DSL,Credit Card,2,0
+CID-0604,Female,53.0,27,92.62,2494.77,One Year,Fiber Optic,Credit Card,4,1
+CID-0605,Female,,18,20.67,436.63,Month-to-Month,No Internet,Mailed Check,1,1
+CID-0606,Female,33.0,8,62.26,426.38,Month-to-Month,DSL,Mailed Check,2,0
+CID-0607,Female,51.0,16,78.53,1278.54,One Year,Fiber Optic,Electronic Check,1,0
+CID-0608,Female,46.0,24,90.4,2181.16,Month-to-Month,Fiber Optic,Mailed Check,2,1
+CID-0609,Female,34.0,13,60.46,729.54,Month-to-Month,Fiber Optic,Electronic Check,2,1
+CID-0610,Female,80.0,45,89.26,4022.86,Two Year,Fiber Optic,Bank Transfer,2,0
+CID-0611,Male,28.0,50,87.38,4327.2,Two Year,Fiber Optic,Mailed Check,4,0
+CID-0612,Female,46.0,39,105.47,4147.01,One Year,Fiber Optic,Mailed Check,1,0
+CID-0613,Female,41.0,6,52.88,309.1,Month-to-Month,DSL,Mailed Check,1,1
+CID-0614,Female,19.0,9,68.66,655.62,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0615,Female,52.0,29,59.92,1738.34,One Year,DSL,Credit Card,3,0
+CID-0616,Female,62.0,20,21.46,,One Year,No Internet,Bank Transfer,2,0
+CID-0617,Female,32.0,9,28.57,337.49,Month-to-Month,No Internet,Mailed Check,2,1
+CID-0618,Male,50.0,17,95.56,1684.93,One Year,Fiber Optic,Credit Card,3,1
+CID-0619,Female,32.0,24,33.38,728.75,One Year,DSL,Electronic Check,1,0
+CID-0620,Female,65.0,35,28.55,974.31,Two Year,No Internet,Mailed Check,0,0
+CID-0621,Male,36.0,25,28.63,733.09,Two Year,No Internet,Bank Transfer,1,0
+CID-0622,Male,55.0,36,57.76,2132.52,One Year,DSL,Bank Transfer,2,0
+CID-0623,Female,,21,85.77,1814.05,Month-to-Month,Fiber Optic,Mailed Check,0,0
+CID-0624,Male,53.0,21,91.26,1910.59,One Year,Fiber Optic,Mailed Check,1,0
+CID-0625,Female,39.0,23,66.37,1466.89,Month-to-Month,DSL,Mailed Check,1,0
+CID-0626,Male,41.0,5,61.05,310.02,Month-to-Month,DSL,Bank Transfer,0,0
+CID-0627,Female,54.0,18,75.84,,Month-to-Month,Fiber Optic,Electronic Check,4,1
+CID-0628,Female,37.0,19,89.82,1738.64,One Year,Fiber Optic,Bank Transfer,1,0
+CID-0629,Male,42.0,15,44.97,638.2,Month-to-Month,DSL,Credit Card,3,0
+CID-0630,Female,70.0,7,76.35,601.34,Month-to-Month,Fiber Optic,Bank Transfer,4,1
+CID-0631,Male,33.0,25,,1729.43,One Year,DSL,Credit Card,1,0
+CID-0632,Male,46.0,1,,139.54,Month-to-Month,Fiber Optic,Electronic Check,1,1
+CID-0633,Female,52.0,30,84.66,2523.72,Month-to-Month,Fiber Optic,Bank Transfer,0,1
+CID-0634,Female,37.0,1,,143.25,Month-to-Month,DSL,Bank Transfer,1,1
+CID-0635,Male,64.0,18,104.72,1949.81,One Year,Fiber Optic,Electronic Check,2,0
+CID-0636,Male,53.0,6,41.23,231.28,Month-to-Month,DSL,Credit Card,2,0
+CID-0637,Female,40.0,38,85.6,3145.81,Month-to-Month,Fiber Optic,Electronic Check,3,0
+CID-0638,Male,51.0,22,51.92,1132.61,One Year,DSL,Electronic Check,2,1
+CID-0639,Female,49.0,39,107.28,4188.7,Two Year,Fiber Optic,Electronic Check,3,0
+CID-0640,Male,36.0,6,107.09,668.66,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0641,Female,55.0,1,40.2,84.06,Month-to-Month,DSL,Credit Card,1,1
+CID-0642,Female,43.0,21,66.17,1371.46,One Year,Fiber Optic,Bank Transfer,2,0
+CID-0643,Female,22.0,25,67.38,1787.54,Month-to-Month,DSL,Mailed Check,3,0
+CID-0644,Male,37.0,32,83.19,2687.33,One Year,Fiber Optic,Bank Transfer,1,0
+CID-0645,Female,36.0,16,63.4,1035.36,One Year,Fiber Optic,Credit Card,0,0
+CID-0646,Female,36.0,13,83.44,1051.05,One Year,Fiber Optic,Bank Transfer,2,0
+CID-0647,Female,52.0,20,51.22,1140.51,One Year,DSL,Electronic Check,1,0
+CID-0648,Female,18.0,25,21.82,501.55,One Year,No Internet,Electronic Check,1,0
+CID-0649,Female,30.0,14,25.02,313.05,Month-to-Month,No Internet,Bank Transfer,0,0
+CID-0650,Female,,17,76.4,1230.9,One Year,Fiber Optic,Electronic Check,2,1
+CID-0638,Male,51.0,22,51.92,1132.61,One Year,DSL,Electronic Check,2,1
+CID-0221,Female,62.0,6,67.11,495.51,Month-to-Month,Fiber Optic,Bank Transfer,1,1
+CID-0429,Male,53.0,48,65.68,3182.53,Two Year,DSL,Bank Transfer,1,0
+CID-0327,Female,41.0,28,50.09,1344.95,Two Year,DSL,Bank Transfer,1,0
+CID-0073,Female,65.0,7,25.96,255.73,Month-to-Month,No Internet,Credit Card,2,1
